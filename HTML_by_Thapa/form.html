@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300;400&display=swap');
+        html{
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form>
+        <div>
+            <label for="Username">Username</label>
+            <input type="text" id="Username">
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" id="Email">
+        </div>
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" id="Password">
+        </div>
+        <div>
+            <label for="Message">Message</label>
+            <textarea name="" id="Message" cols="30" rows="10"></textarea>
+        </div>        
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+    <form action="">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="number">Number</label>
+            <input type="number" id="number" value="7" max="10" min="0">
+        </div>
+        <div>
+            <label for="xyz">gender</label>
+            <input type="radio" name="genders" value="male">Male
+            <input type="radio" name="genders" value="female">Female
+        </div>
+        <div>
+            <label for="xyz">Sports</label>
+            <input type="checkbox" name="sports" value="cricket">Cricket
+            <input type="checkbox" name="sports" value="football">Football
+        </div>
+    </form>
+</body>
+</html>

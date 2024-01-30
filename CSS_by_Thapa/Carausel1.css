@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    font-size: 62.5%;
+}
+.parent{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.child{
+    background-image: url('./Belongings/pexels-annesophie-parent-2105416.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 17rem;
+    width: 40rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    animation: image_carausel 20s linear infinite;
+}
+@keyframes image_carausel{
+    0%{
+        background-image: url('./Belongings/pexels-annesophie-parent-2105416.jpg');
+    }
+    20%{
+        background-image: url('./Belongings/pexels-eberhard-grossgasteiger-707344.jpg');
+    }
+    40%{
+        background-image: url('./Belongings/pexels-emre-can-acer-2189696.jpg');
+    }
+    60%{
+        background-image: url('./Belongings/pexels-gül-işık-18879547.jpg');
+    }
+    80%{
+        background-image: url('./Belongings/pexels-jan-van-bizar-15469650.jpg');
+    }
+    100%{
+        background-image: url('./Belongings/pexels-annesophie-parent-2105416.jpg');
+    }
+}

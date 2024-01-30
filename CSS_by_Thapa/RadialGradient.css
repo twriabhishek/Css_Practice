@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section{
+    height: 100vh;
+    width: 100%;
+    background-image: repeating-radial-gradient(rgb(199, 255, 221),
+    rgb(251, 215, 131),
+    rgb(247, 120, 124));
+}

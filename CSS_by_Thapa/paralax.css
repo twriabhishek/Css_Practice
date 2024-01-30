@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300;400&display=swap");
+h1,
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: 30px;
+  background-attachment: fixed;
+  color: hsl(0, 0%, 94%);
+}
+.sec-1{
+  background-image: url('./Belongings/jared-rice-NTyBbu66_SI-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec-2{
+  background-image: url('./Belongings/arjun-mj-G_BXPjwod-c-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec-3{
+  background-image: url('./Belongings/paulina-milde-jachowska-0g3_4WP9OBM-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec-4{
+  background-image: url('./Belongings/rafay-ansari-QUfY0hpULc0-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec-5{
+  background-image: url('./Belongings/ray-mallick-5J1bHRX1fNw-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

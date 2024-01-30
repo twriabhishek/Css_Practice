@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url('./Belongings/pexels-ákos-szabó-440731.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.rain{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Belongings/Rain_002.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: raining 0.5s linear infinite;
+}
+
+@keyframes raining{
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -10% -100%;
+    }
+}

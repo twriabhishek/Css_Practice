@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffe4d6;
+    display: grid;
+    place-items: center;
+    font-size: 62.5%;
+}
+.container{
+    width: 40vw;
+    aspect-ratio: 1;
+    border: 2px solid orange;
+    background-color: #ffbb5c;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    animation: skychange 10s ease-in-out infinite;
+}
+@keyframes skychange{
+    0%{
+        background-color: #ffbb5cb5;
+    }
+    25%{
+        background-color: #fcbf49
+    }
+    50%{
+        background-color: #000000
+    }
+    75%{
+        background-color: #fcbf49
+    }
+    100%{
+        background-color: #ffbb5cb5
+    }
+}
+
+.inside-container{
+    width: 18vw;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #e25e3e;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid orange;
+}
+.inside-container::after{
+    content: "";
+    width: inherit;
+    aspect-ratio: 1;
+    border-radius: inherit;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: moonwalf 10s ease-in-out infinite;
+}
+@keyframes moonwalf{
+    0%{
+        translate: 100%;
+        scale: 1;
+    }
+    50%{
+        translate: 0%;
+        scale: 0.95;
+    }
+    100%{
+        translate: -100%;
+        scale: 1; 
+    }
+}

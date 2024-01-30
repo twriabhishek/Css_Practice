@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300;400&family=Urbanist:ital,wght@0,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-family: 'Urbanist', sans-serif;
+}
+p{
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.4rem;
+    column-count: 3;
+    column-rule: 1px solid black;
+    column-gap: 2rem;
+    text-align: justify;
+}

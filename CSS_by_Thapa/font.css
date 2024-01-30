@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300;400&family=Urbanist:ital,wght@0,700;1,900&display=swap');
+@font-face{
+    src: url("./Belongings/Battle.ttf"), url("./Belongings/Christmas.otf");
+    font-family: 'battle', 'christmas';
+}
+body{
+    font-size: 10px;
+}
+
+.container{
+    text-align: center;
+}
+.head{
+    font-size: 3rem;
+    font-family: 'Urbanist', sans-serif;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'battle';
+}
+.para{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+    font-weight: 700;
+}

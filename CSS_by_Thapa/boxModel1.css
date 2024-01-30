@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300;400&family=Urbanist:ital,wght@0,700;1,900&display=swap');
+body {
+    background: 
+      linear-gradient(to right, rgba(137, 37, 62, 0.7), rgba(58, 97, 134, 0.7)),
+      url("./Belongings/pexels-gül-işık-18879547.jpg") no-repeat;
+    background-size: cover;
+    font-family: 'Urbanist', sans-serif;
+    color: white;
+}
+p{
+    letter-spacing: 1px;
+    word-spacing: 2.5px;
+    line-height: 20px;
+}
+.container{
+    box-sizing: border-box;
+    border: 2px solid white;
+    height: 25rem;
+    width: 800px;
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+}

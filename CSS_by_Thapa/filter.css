@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+.container{
+    max-width: 40%;
+    max-height: 40%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    filter:blur(1px);
+    filter: brightness(150%);
+    /* filter: invert(10); */
+}

@@ -1,0 +1,34 @@
+/* 1) tag seletor */
+/* 2) Id selector */
+/* 3)Class Selector */
+/* 4)Pseudo Selector */
+
+
+
+/* h1{
+    color: brown;
+    font-weight: bold;
+}
+p{
+    color: chartreuse;
+} */
+ 
+
+.head{
+    color: brown;
+    font-weight: bold;
+}
+.para{
+    color: chartreuse;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+

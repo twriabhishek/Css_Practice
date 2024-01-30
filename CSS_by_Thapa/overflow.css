@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #a80077, #66ff00);
+}
+.child{
+    height: 30rem;
+    width: 20rem;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+    /* overflow: visible;
+    overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+    /* overflow-x: scroll; */
+    /* overflow-y: scroll; */
+    /* white-space: nowrap; */
+    padding: 20px;
+    margin-top: 10px;
+}
